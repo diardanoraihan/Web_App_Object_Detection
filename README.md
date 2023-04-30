@@ -1,4 +1,4 @@
-# Web App Object_Detection
+# Web App Object Detection
 Perform custom object detection using YOLO algorithm and deploy it via web app in Python
 
 ## What is Object Detection?
