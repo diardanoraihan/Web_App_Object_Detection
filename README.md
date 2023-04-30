@@ -27,12 +27,14 @@ Perform custom object detection using YOLO algorithm and deploy it via web app i
 
 ## Evaluating Object Detection Model
 <img width="720" alt="image" src="https://user-images.githubusercontent.com/17371142/235334198-d3ac120d-1558-483d-af52-dea633abf482.png">
+
 There are two major evaluation techniques that will perform for object detection model:
 - Intersection Over Union (IoU)
 - mean Average Precision (mAP)
 
 ### Intesection Over Union
 <img width="1221" alt="image" src="https://user-images.githubusercontent.com/17371142/235334300-15a9b345-0ed2-4e09-9b0b-58e0beccaa34.png">
+
 - In general, IoU > 50% is consider as good prediction. (~ mAP 0.5)
 
 ### mean Average Precision (mAP)
@@ -56,6 +58,8 @@ There are two major evaluation techniques that will perform for object detection
 
 <img width="550" alt="image" src="https://user-images.githubusercontent.com/17371142/235334944-b0d71698-bf17-4705-bd5f-3306077a70f3.png">
 
+
+To evaluate object detection models like R-CNN and YOLO, the mean average precision (mAP) is used. The mAP compares the ground-truth bounding box to the detected box and returns a score. The higher the score, the more accurate the model is in its detections. (Source: https://blog.paperspace.com/mean-average-precision/)
 
 
 
