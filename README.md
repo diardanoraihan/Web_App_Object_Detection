@@ -38,6 +38,7 @@ There are two major evaluation techniques that will perform for object detection
 ### mean Average Precision (mAP)
 - In order to understand mAP, let's familiarize again with a confusion matrix as the representation for object detection model.
 <img width="858" alt="image" src="https://user-images.githubusercontent.com/17371142/235334789-f204ea7f-8205-4c49-b9f3-f2e6475ad493.png">
+
 - __True Positive__:
   - IoU > 50% (~ mAP 0.5)
   - Both belong to the correct class
