@@ -15,9 +15,9 @@ Perform custom object detection using YOLO algorithm and deploy it via web app i
 ### Object Detection
 - Object detection in simple words finds objects in image and categorizes or classifies them.
 <img width="1063" alt="image" src="https://user-images.githubusercontent.com/17371142/235333847-b61e05dc-fded-47cb-a5a2-ee0f6c980739.png">
-- **Bounding Box Coordinates**: the bounding boxes of the objects detected in the coordinates.
-- **Labels**: labels or class names of the bounding boxes predicted above
-- **Confidence Scores**: confidence or probability scores of the classes detected
+- __Bounding Box Coordinates__: the bounding boxes of the objects detected in the coordinates.
+- __Labels__ labels or class names of the bounding boxes predicted above
+- __Confidence Scores__ confidence or probability scores of the classes detected
 <img width="667" alt="image" src="https://user-images.githubusercontent.com/17371142/235333923-633f8b29-f46a-43b6-97af-e3ddd4751ebf.png">
 
 ### Detection
@@ -38,16 +38,19 @@ There are two major evaluation techniques that will perform for object detection
 ### mean Average Precision (mAP)
 - In order to understand mAP, let's familiarize again with a confusion matrix as the representation for object detection model.
 <img width="858" alt="image" src="https://user-images.githubusercontent.com/17371142/235334789-f204ea7f-8205-4c49-b9f3-f2e6475ad493.png">
-- True Positive:
+- __True Positive__:
   - IoU > 50% (~ mAP 0.5)
   - Both belong to the correct class
-- False Negative:
+
+- __False Negative__:
   - IoU > 50% (~ mAP 0.5)
   - Incorrect class prediction
-- False Positive
+ 
+- __False Positive__:
   - IoU < 50%
   - Correct class prediction
-- True Negative
+
+- __True Negative__:
   - No detection when there is no object.
 
 <img width="550" alt="image" src="https://user-images.githubusercontent.com/17371142/235334944-b0d71698-bf17-4705-bd5f-3306077a70f3.png">
