@@ -1,6 +1,25 @@
 # Web App Object Detection
 Perform custom object detection using YOLO algorithm and deploy it via web app in Python
 
+## Packages Installation on Mac
+- Create your python virtual environment
+`pip3 install virtualenv`
+`virtualenv yolo_env`
+
+- Install all packages in the `requirements.txt` file
+`pip3 install -r requirements.txt`
+
+- [Optional] Install prerequisites of labelImg package in our system to help us labeling the image
+`brew install libxml2`
+`brew install qt5`
+`brew link qt5 --force`
+
+- [Optional] Install labelImg package in your newly-created python environment
+`source <python_virenv>/bin/activate`
+`pip3 install --upgrade pip`
+`pip3 install pyqt5 --config-settings --confirm-license= --verbose`
+`pip3 install labelImg —verbose`
+
 ## What is Object Detection?
 
 ### Classification
