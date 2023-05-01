@@ -90,6 +90,10 @@ There are two major evaluation techniques that will perform for object detection
 
 To evaluate object detection models like R-CNN and YOLO, the mean average precision (mAP) is used. The mAP compares the ground-truth bounding box to the detected box and returns a score. The higher the score, the more accurate the model is in its detections. (Source: https://blog.paperspace.com/mean-average-precision/)
 
+__FAQ__:
+- [What's the difference between anaconda and python virtual environments?](https://dataaspirant.com/anaconda-python-virtualenv/)
+- [Why my labelImg installation error in preparing metadata pyproject.toml](https://bobbyhadz.com/blog/python-preparing-metadata-pyproject-toml-did-not-run-successfully)
+
 
 
 
