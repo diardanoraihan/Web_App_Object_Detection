@@ -6,7 +6,7 @@ Perform custom object detection using YOLO algorithm and deploy it via web app i
 
 `pip3 install virtualenv`
 
-`virtualenv yolo_env`
+`python3.9 -m venv yolo_env` (Note: to work with labelImg, the stable version of Python is 3.9)
 
 - Install all packages in the `requirements.txt` file
 
@@ -28,7 +28,11 @@ Perform custom object detection using YOLO algorithm and deploy it via web app i
 
 `pip3 install pyqt5 --config-settings --confirm-license= --verbose`
 
-`pip3 install labelImg —verbose`
+`pip3 install labelImg`
+
+- [Optional] Check the list of installed packages
+
+`pip list`
 
 ## What is Object Detection?
 
