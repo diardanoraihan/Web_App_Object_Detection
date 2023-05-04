@@ -1,3 +1,5 @@
 .DS_Store
 yolo_env/
-1_datapreparation/data_images/
+1_datapreparation/data_images/annotations/
+1_datapreparation/data_images/test/
+1_datapreparation/data_images/train/
