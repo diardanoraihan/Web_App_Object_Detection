@@ -3,4 +3,5 @@ pandas
 matplotlib
 opencv-python
 jupyter
+PyYAML
 # labelImg
