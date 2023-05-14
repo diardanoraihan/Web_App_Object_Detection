@@ -34,6 +34,8 @@ Perform custom object detection using YOLO algorithm and deploy it via web app i
 
 `pip list`
 
+- Run the `main_object_detection_[image/realtime].py` using `yolo_env` Python environment.
+
 ## What is Object Detection?
 
 ### Classification
