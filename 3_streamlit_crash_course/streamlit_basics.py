@@ -1,4 +1,5 @@
 # Full documentation: streamlit.io
+# Run the app: streamlit run streamlit_basics.py
 import streamlit as st
 import pandas as pd
 
